@@ -1,0 +1,35 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: 'wallawhats',
+  description: 'Project documentation powered by Agile Vibe Coding',
+  base: '/',
+  ignoreDeadLinks: true,
+
+  // Custom head tags for AVC documentation identification
+  head: [
+    ['meta', { name: 'avc-documentation', content: 'true' }],
+    ['meta', { name: 'generator', content: 'Agile Vibe Coding' }]
+  ],
+
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' }
+    ],
+
+    sidebar: [
+      {
+        items: [
+          { text: 'Project Brief', link: '/' },
+          { text: 'Questions & Answers', link: '/questions-and-answers' }
+        ]
+      }
+      // @@AVC-WORK-ITEMS-START@@
+      // @@AVC-WORK-ITEMS-END@@
+    ],
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/yourusername/yourproject' }
+    ]
+  }
+})

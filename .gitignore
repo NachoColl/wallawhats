@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# VitePress build output
+docs/.vitepress/dist
+
+# VitePress cache
+docs/.vitepress/cache
+.avc/documentation/.vitepress/dist
+.avc/documentation/.vitepress/cache
+
+
+node_modules/
+
+# Command execution logs
+.avc/logs
+
+# Token usage tracking
+.avc/token-history.json
+
+# Ceremony execution history
+.avc/ceremonies-history.json
