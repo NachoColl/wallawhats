@@ -1,0 +1,21 @@
+{
+  "wizardStep": 2,
+  "strategy": "local-mvp",
+  "mission": "",
+  "initialScope": "",
+  "dbResult": null,
+  "dbChoice": null,
+  "archOptions": [],
+  "selectedArch": null,
+  "prefillResult": null,
+  "requirements": {
+    "MISSION_STATEMENT": "",
+    "INITIAL_SCOPE": "",
+    "TARGET_USERS": "",
+    "DEPLOYMENT_TARGET": "",
+    "TECHNICAL_CONSIDERATIONS": "",
+    "TECHNICAL_EXCLUSIONS": "",
+    "SECURITY_AND_COMPLIANCE_REQUIREMENTS": ""
+  },
+  "savedAt": "2026-03-13T07:45:32.272Z"
+}

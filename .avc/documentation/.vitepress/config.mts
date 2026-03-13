@@ -20,8 +20,7 @@ export default defineConfig({
     sidebar: [
       {
         items: [
-          { text: 'Project Brief', link: '/' },
-          { text: 'Questions & Answers', link: '/questions-and-answers' }
+          { text: 'Project Brief', link: '/' }
         ]
       }
       // @@AVC-WORK-ITEMS-START@@
